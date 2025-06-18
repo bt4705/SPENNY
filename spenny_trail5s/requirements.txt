@@ -1,5 +1,4 @@
-# Overwrite the nested requirements.txt correctly
-cat << 'EOF' > spenny_trail5s/requirements.txt
+requirements.txt <<EOF
 pandas
 yfinance
 python-dotenv
