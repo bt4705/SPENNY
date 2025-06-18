@@ -20,9 +20,9 @@ SPENNY is a modular trading bot that:
    source .venv/bin/activate
 3. **Copy & fill your .env**
    cp .env.example .env
-# Edit .env with your DROPBOX_ACCESS_TOKEN, LLAMA_API_KEY,
-# DROPBOX_REMOTE_FOLDERS, API_ENDPOINT, API_KEY, APP_KEY, APP_SECRET,
-# USE_AI_STOP, MARKET_WINDOWS, etc.
+  Edit .env with your DROPBOX_ACCESS_TOKEN, LLAMA_API_KEY,
+  DROPBOX_REMOTE_FOLDERS, API_ENDPOINT, API_KEY, APP_KEY, APP_SECRET,
+  USE_AI_STOP, MARKET_WINDOWS, etc.
 
 4. **Install dependencies**
    pip install -r spenny_trail5s/requirements.txt
