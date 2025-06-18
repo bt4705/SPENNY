@@ -1,7 +1,0 @@
-pandas_ta
-pandas_market_calendars
-matplotlib
-pytz
-websockets==10.4
-aiohttp==3.8.2              # pin required by Alpaca 3.1.1
-alpaca-trade-api==3.1.1
