@@ -1,0 +1,9 @@
+pandas
+yfinance
+python-dotenv
+dropbox
+openai
+pdfplumber
+python-docx
+pytesseract
+Pillow
