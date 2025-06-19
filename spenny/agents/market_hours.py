@@ -1,5 +1,5 @@
 from datetime import datetime, timezone
-from config.secrets import MARKET_WINDOWS
+from ..config import MARKET_WINDOWS
 
 def is_market_open():
     now = datetime.now(timezone.utc)

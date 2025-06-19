@@ -31,17 +31,16 @@ SPENNY is a modular trading bot that:
    # USE_AI_STOP, MARKET_WINDOWS, etc.
    ```
 
-4. **Install dependencies**  
-   SPENNY’s code lives in the `spenny_trail5s/` subfolder, so point pip there:
+4. **Install dependencies**
    ```bash
-   pip install -r spenny_trail5s/requirements.txt
+   pip install -r spenny/requirements.txt
    ```
 
 ## Usage
 
-1. **Change into the code directory**  
+1. **Change into the code directory**
    ```bash
-   cd spenny_trail5s
+   cd spenny
    ```
 
 2. **Run the bot**  
@@ -70,13 +69,12 @@ SPENNY is a modular trading bot that:
 ## Directory Structure
 
 ```
-spenny_trail5s/
+spenny/
 ├── run.py                 # Entry point: orchestrates ingestion & trading loops
 ├── .env.example           # Template for your environment vars
 ├── requirements.txt       # Packages for SPENNY’s Python code
 ├── config/
 │   ├── settings.py        # Symbols, timings, risk parameters
-│   └── secrets.py         # Loads/validates your .env keys
 ├── core/
 │   ├── data.py            # Fetches 1m/5m/60m bars
 │   ├── strategy.py        # Bull-flag & checklist logic
