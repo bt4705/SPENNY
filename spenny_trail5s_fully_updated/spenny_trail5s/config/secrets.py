@@ -8,6 +8,13 @@ load_dotenv()
 
 # Dropbox API token
 DROPBOX_ACCESS_TOKEN = os.getenv("DROPBOX_ACCESS_TOKEN")
+
+# Ensure DROPBOX_REMOTE_FOLDERS is set
+_raw_folders = os.getenv('DROPBOX_REMOTE_FOLDERS')
+if not _raw_folders:
+    raise EnvironmentError('Missing DROPBOX_REMOTE_FOLDERS in .env')
+DROPBOX_REMOTE_FOLDERS = [p.strip() for p in _raw_folders.split(';') if p.strip()]
+
 if not DROPBOX_ACCESS_TOKEN:
     raise EnvironmentError("Missing DROPBOX_ACCESS_TOKEN in .env")
 
