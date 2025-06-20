@@ -7,7 +7,7 @@ import docx
 from PIL import Image
 import pytesseract
 import dropbox
-from config.secrets import DROPBOX_ACCESS_TOKEN, DROPBOX_REMOTE_FOLDERS
+from ..config import DROPBOX_ACCESS_TOKEN, DROPBOX_REMOTE_FOLDERS
 
 logger = logging.getLogger(__name__)
 

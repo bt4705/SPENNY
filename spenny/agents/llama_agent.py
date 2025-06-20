@@ -1,6 +1,6 @@
 import openai
 import logging
-from config.secrets import LLAMA_API_KEY
+from ..config import LLAMA_API_KEY
 
 openai.api_key = LLAMA_API_KEY
 logger = logging.getLogger(__name__)
