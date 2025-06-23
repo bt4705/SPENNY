@@ -1,5 +1,0 @@
-pytest
-mock
-pytest-mock
-coverage
-stone>=2,<3.3.3

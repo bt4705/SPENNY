@@ -1,3 +1,0 @@
-"""
-Spenny trading system package
-"""
