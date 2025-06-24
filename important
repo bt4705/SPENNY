@@ -1,0 +1,33 @@
+# SPENNY Desktop Interaction Templates
+
+This directory should contain PNG files for UI element detection. The following templates are required:
+
+1. `review_button.png` - Template for the review button
+2. `submit_order.png` - Template for the submit order button
+3. `market_order.png` - Template for market order selection
+4. `limit_order.png` - Template for limit order selection
+5. `buy_button.png` - Template for buy action
+6. `sell_button.png` - Template for sell action
+
+## Template Creation Guidelines
+
+1. Capture UI elements at 100% zoom level
+2. Use a clean, unobstructed view of the element
+3. Save as PNG with transparent background if possible
+4. Name files exactly as specified above
+
+## Troubleshooting
+
+If templates are not loading:
+1. Verify file names match exactly (case-sensitive)
+2. Ensure PNG format
+3. Check image quality and clarity
+4. Verify screen recording permissions are granted
+
+## Environment Configuration
+
+You can override the default templates path by setting the `TEMPLATES_PATH` environment variable in your `.env` file:
+
+```
+TEMPLATES_PATH=/path/to/custom/templates
+```
